@@ -694,19 +694,6 @@ Contribuições são bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-### Ideias para Contribuir
-
-- 🔐 Adicionar autenticação de usuários
-- 📸 Upload de imagens dos produtos
-- 🏷️ Sistema de categorias
-- 📊 Mais relatórios e gráficos
-- 🔔 Notificações push
-- 📱 App mobile (React Native/Flutter)
-- 🌍 Internacionalização (i18n)
-- 🧪 Testes automatizados (PHPUnit)
-- 🐳 Docker para deployment
-- 📝 Logs de auditoria
-
 ---
 
 ## 📄 Licença
