@@ -38,6 +38,12 @@ Este projeto foi desenvolvido como uma solução robusta e profissional para ger
 - Validações robustas
 - Visualização de dados com gráficos
 
+
+
+https://github.com/user-attachments/assets/80295654-9b10-4f07-82bd-0d293789f56e
+
+
+
 ---
 
 ## ✨ Funcionalidades
