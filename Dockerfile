@@ -23,6 +23,13 @@ WORKDIR /var/www/html
 RUN curl -sS https://getcomposer.org/installer | php && \
     php composer.phar install --no-dev --optimize-autoloader
 
+# Configura o Apache para servir a pasta "public"
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf && \
+    sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf && \
+    sed -i 's|/var/www/|/var/www/html/public|g' /etc/apache2/apache2.conf && \
+    chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html
+
 # Expõe a porta padrão do Apache
 EXPOSE 80
 
